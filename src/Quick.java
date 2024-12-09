@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+
 public class Quick {
     public static void main(String[] args){
-        int[] arrayNums = new int[5];
-        String[] arrayString = new String[5];
-        System.out.println(arrayNums[1]);
-        System.out.println(arrayString[0]);
+
+        String[] nombres = new String[5];
+        ArrayList<String> nombres2 = new ArrayList<>();
+        nombres2.add("Primero");
+        System.out.println(nombres2.size());
     }
 }
