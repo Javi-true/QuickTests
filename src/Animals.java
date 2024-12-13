@@ -4,7 +4,7 @@ public class Animals {
     int age;
     char gender;
 
-    //constructor.
+    //constructor .
     public Animals(String name, int age, char gender){
         this.name = name;
         this.age = age;
