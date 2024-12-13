@@ -23,8 +23,8 @@ public class Animals {
 
     public static void main(String[] args){
 
-        Animals perro = new Animals("perro", 10, 'M');
-        //System.out.println(perro);
-        perro.Sound();
+        Perros perro1 = new Perros("Juanito", 1, 'M', "Pug");
+        System.out.println(perro1);
+        perro1.Sound();
     }
 }

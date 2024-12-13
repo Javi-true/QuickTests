@@ -13,7 +13,7 @@ public class Perros extends Animals{
 
     @Override
     public String toString() {
-        return "Animals{name = "+name+", age = "+age+", gender = "+gender+", raza = "+raza+"}";
+        return "Perros {name = "+name+", age = "+age+", gender = "+gender+", raza = "+raza+"}";
     }
 
     @Override
