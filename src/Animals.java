@@ -4,7 +4,7 @@ public class Animals {
     int age;
     char gender;
 
-    //constructor.
+    //constructor .
     public Animals(String name, int age, char gender){
         this.name = name;
         this.age = age;
@@ -23,8 +23,14 @@ public class Animals {
 
     public static void main(String[] args){
 
+<<<<<<< HEAD
         Animals perro = new Perros("Perrito", 10,'M',"Pug");
         //System.out.println();
         perro.Sound();
+=======
+        Perros perro1 = new Perros("Juanito", 1, 'M', "Pug");
+        System.out.println(perro1);
+        perro1.Sound();
+>>>>>>> 089d58a167ab4dcd99ccfedf848a464677d77e5c
     }
 }
